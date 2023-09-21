@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #08a185d1;
+}
+#loginpage{
+    position:absolute;
+    margin: 0;
+    background-color:whitesmoke;
+    width: 30%;
+    left: 33%;
+    top: 25% ;  
+    padding: 70PX 70px;
+    box-shadow: 2px 2px 20px;
+}   
+#username{
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid #D1D1D4;
+}
+#password{
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid #D1D1D4;
+}
+
+#submit{
+    width: 100%;
+    color: aliceblue;
+    background-color:#166052;
+    height: 50px;
+    border: none ;
+    border-radius: 3px;
+    transition: 0.3s all ease;
+}
+#submit:hover{
+    background-color: rgba(0, 17, 19, 0.911);
+    color: rgb(255, 255, 255);
+    transition: 0.3s all ease;
+}
+#signup{
+    text-decoration: none;
+    color: #10c4a3 ;
+}
+#forgotten{
+    text-decoration: none;
+    margin-left:80px;
+    color: #10c4a3 ;
+}
+#forgotten:hover{
+    color:blue;
+    transition: all 0.3s ease;
+}
