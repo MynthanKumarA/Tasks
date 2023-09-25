@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="links">
+        <a class="logo" href="index.html">
+            Code - Z
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./Login_form.htm">LOGIN</a></li>
+                <li><a href="./Registerform.html">REGISTER</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+                <li><a href="./aboutus.html">ABOUT US</a></li>
+            </ul>
+    </nav>
+
+    <div id="title">
+        <h1>ABOUT US</h1>
+    </div>
+    <div style="height: 40vh;">
+        <img id="career_image" src="./career_image.jpg" alt="career_image">
+        <div id="text_box">
+            <h2>JOURNEY</h2><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas porro voluptates doloribus nemo minus placeat,
+            voluptas neque iusto saepe natus, quia dolore rerum? Animi, ut a. Et, eaque excepturi. Explicabo, facilis
+            nostrum. Ad, reprehenderit itaque? Quis obcaecati aut commodi suscipit reiciendis aliquam nemo quisquam
+            aspernatur reprehenderit architecto, impedit, eveniet eius placeat cumque mollitia accusantium tempora
+            numquam alias nisi eaque fugit et ullam soluta minus. Reprehenderit unde tempore tenetur praesentium
+            temporibus rem repellat, laudantium, quos non voluptas perferendis, deserunt animi quae odio quaerat vel
+            soluta modi suscipit debitis illo odit quibusdam fuga! Provident dicta voluptatibus, neque laborum obcaecati
+            eaque nostrum minima.
+        </div>
+    </div>
+    <div style="height: 50vh;">
+        <div id="text_box_2">
+            <h2>SUCCESS</h2><br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sint impedit maxime autem dignissimos, amet
+            eaque dolore quisquam iste nesciunt at ea illo eos necessitatibus nihil placeat architecto dolores voluptas
+            velit exercitationem totam ut animi aperiam? Reiciendis dolorum sunt, harum veritatis consequatur placeat
+            similique tempora dolorem quisquam ipsum ad quibusdam voluptatum cum eum ipsa quae repudiandae excepturi
+            optio ratione deleniti ducimus fugit quaerat nostrum? Sapiente cupiditate tempore perspiciatis quaerat
+            quisquam quasi maiores molestiae cumque. Minus repudiandae odio vero fugit impedit fuga? Doloremque porro
+            fugiat laborum quas dicta voluptatum asperiores dolore veniam expedita, nemo quia amet beatae ipsa autem
+            nihil molestias.
+        </div>
+        <img id="success_image" src="success.jpg" alt="success_image">
+    </div>
+    <div id="image_gallery">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./car1.jpg" alt="car"></div>
+                <div class="swiper-slide"><img src="./car2.jpg" alt="car"></div>
+                <div class="swiper-slide"><img src="./car3.jpg" alt="car"></div>
+                <div class="swiper-slide"><img src="./car4.jpg" alt="car"></div>
+                <div class="swiper-slide"><img src="./car5.jpg" alt="car"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+<footer>
+    <div class="footer_container">
+        <div class="socialicons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="footernav">
+        <ul>
+            <li><a href="">Support</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <li><a href="./aboutus.html">Our Team</a></li>
+            <li><a href="">News</a> </li>
+            <li><a href="./car_Website.html">Home</a></li>
+        </ul>
+    </div>
+ </div>
+ <div class="footerbottom">
+    <p>Copyright &copy;2023; Powered By <span class="designer"> Code -Z</span></p>
+</div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0px;
+  } 
+body{
+    /* position:absolute; */
+    height: 80vh;
+    background-color: #aa0617;
+    overflow-x: hidden;
+}
+#top_title{
+  color: #ffffff;
+  margin-left: 80px;
+}
+#showup{
+    position: relative;
+    left: 50px;
+    top: 70px;
+    color: whitesmoke; 
+ }
+#content{
+    position: relative;
+    left: 450px;
+    border-radius: 20px;
+    bottom: 60px;
+    height: 101vh;
+     width: 1200px;
+    background-color: #ffffff;
+} 
+#top_details{
+  text-align: center;
+  height: 6vh;
+  margin-top: 5px;
+  background-color: #280101;
+}
+h1{
+  text-align: left;
+  position: relative;
+  left: 350px;
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+.socialicons a{
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  margin: 20px 90px;
+  border-radius: 50%;
+}
+.socialicons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialicons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialicons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+#or{
+  font-weight: 600;
+  font-size: 1em;
+}
+#user_details_form{
+  background-color: #111;
+  height: 112vh;
+  width: 100%;
+  position: relative;
+  top: 8px;
+}
+#or{
+  font:600 1.3em;
+  color: white;
+  margin-bottom: 10px;
+}
+.form-group .fa{
+  position:absolute;
+  padding: 8px;
+  display: none;
+}
+.form-group {
+  position: relative;
+}
+.fa-times{
+  color: #aa0617;
+}
+.fa-check{
+  color: green;
+}
+.details{
+  padding: 6px 8px;
+  width:30%;
+  margin-top: 10px;
+  outline: none ;
+  border: none;
+  background-color: inherit;
+  color: #ffffff;
+  border-bottom:2px solid #ffffff;
+  transition: all 0.3s ease-in;
+
+}
+.details:hover{
+  border-bottom-color:  #aa0617;
+  transition: all 0.3s ease-out;
+}
+#date{
+  width: 10%;
+}
+#dob_details{
+  color: #ffffff;
+}
+.gender{
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+.gender:hover{
+  color: #aa0617;
+  transition: all 0.3s ease-out;
+}
+#submit{
+  font-weight: 600;
+  font-size: 1.3em;
+  width: 30%;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  transition: all 0.3 ease-in;
+}
+#submit:hover{
+  color: #ffffff;
+  background-color: #aa0617;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 0 10px black;
+}
+#existing_account{
+  color: #ffffff;
+  font-size: 1.3em;
+  padding-top: 5px;
+}
+#login{
+  text-decoration: none;
+  color: #aa0617;
+  transition: all 0.3s ease-in;
+}
+#login:hover{
+  color: #60000a;
+  transition: all 0.3s ease-out;
+
+}
+#email_error,
+#first_name_error,
+#last_name_error,
+#mobile_number_error,
+#user_error,
+#pass_error,
+#confirm_password_error{
+	width: 100%;
+	font-size: 18px;    
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}

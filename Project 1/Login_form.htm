@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <script src="./valid.js" defer>
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="logo" href="index.html">
+            Code - Z
+        </a>
+        <div class="links">
+            <ul> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./Login_form.htm">LOGIN</a></li>
+                <li><a href="./Registerform.html">REGISTER</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="./contactus.html">CONTACT US</a></li>
+            </ul>
+        </div></nav>
+    <form id="loginpage" name="form" onsubmit="return validated()"> 
+     
+        <input class="login_input" id="email" type="email" name="email" placeholder="Email Address"><br><br>
+          <div id="email_error">Please enter the email address</div>
+        
+        <input class="login_input" id="password" type="password" placeholder="Password" ><br><br>  
+          <div id="pass_error" >please Enter the Password</div><br>
+        
+        <input type="checkbox">remember me</input> 
+          <a id="forgotten" href="#">Forgotten password</a><br><br>
+
+        <button id="submit" type="submit" value="Login">Login</button> 
+          <br><br>
+        <label>not registered?</label>
+          <a id="signup" href="./Registerform.html">Signup</a>
+    </form>
+</body>
+
+</html>

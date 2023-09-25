@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./ford_img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#loginpage{
+    position:absolute;
+    margin: 0;
+    background-color:whitesmoke;
+    width: 35%;
+    left: 33%;
+    top: 25% ;  
+    padding: 70PX 70px;
+    box-shadow: 2px 2px 20px;
+    opacity: 0.7;
+}   
+#email{
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    transition: all o.3s ease-out;
+    border-bottom: 2px solid #D1D1D4;
+}
+#email:hover,#password:hover{
+    border-bottom-color: #AA0617;
+    transition: all 0.3s ease-in;
+
+}
+#password{
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid #D1D1D4;
+}
+
+#submit{
+    width: 100%;
+    color: aliceblue;
+    background-color:#aa0617;
+    height: 50px;
+    border: none ;
+    border-radius: 3px;
+    transition: 0.3s all ease;
+}
+#submit:hover{
+    background-color: rgba(0, 17, 19, 0.911);
+    color: rgb(255, 255, 255);
+    transition: 0.3s all ease;
+}
+#signup{
+    text-decoration: none;
+    color: #aa0617;
+    position: relative;
+    left: 10px;
+}
+#forgotten{
+    text-decoration: none;
+    margin-left:110px;
+    color: #aa0617;
+}
+#forgotten:hover{
+    color: rgba(0, 17, 19, 0.911);
+    transition: all 0.3s ease;
+}
+#signup:hover{
+    color: rgba(0, 17, 19, 0.911);
+    transition: all 0.3s ease;
+}
+.navbar{
+    background-color: #AA0617;
+    height: 9vh;
+}
+ul{
+    text-align: right; 
+}
+li{
+    display: inline;
+}
+a{
+    position: relative;
+    top: 5px;
+    right: 40px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    font-size: large;
+}
+a:hover{
+    color: whitesmoke;
+    transition: all 0.3s ease-in;
+}
+
+.logo{
+    font-size:20px; 
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: 800;
+}
+
+#email_error,
+#pass_error{
+	width: 100%;
+	font-size: 18px;    
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .navbar{
+        background-color: #AA0617;
+        height: 80vh;
+        width: fit-content;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px; 
+        margin-top: 20px;
+        position: relative;
+        left: 20px;
+        font-size: 0.3em;
+    }
+    .logo{
+    font-size:15px; 
+    }
+}
+
